@@ -1,0 +1,145 @@
+*{
+    font-family: poppins;
+   
+    margin: 20px 20px;
+}
+
+nav {
+    display: flex;
+
+}
+img[src="./images/actions.svg"] {
+  height: 40px;
+  position: relative;
+  left: 25vh;
+  cursor: pointer;
+}
+
+.nav-items {
+    margin-left: 25vh;
+    margin-top: 30px;
+    
+    
+}
+.nav-items h5:hover{
+  text-decoration: underline;
+}
+
+.nav-items h5 {
+    display: inline;
+    padding-left: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ .intro-section{
+    display: flex;
+ }
+
+ h3{
+    font-size:2rem;
+ }
+  h1{
+  font-size: 70px;
+  font-family: Fredoka One;
+  }
+
+  img[src="./images/circles.svg"] {
+    height: 40px;
+    position: relative;
+    top: 25px;
+  }
+  img[src="./images/plus.svg"] {
+    background-color: rgb(221, 80, 4);
+    border-radius: 25px;
+
+    padding: 1px;
+    margin:0px;
+    cursor: grab;
+    
+  }
+  .sub-headlines {
+    font-size: 25px;
+     }
+     .discount{
+      height: 20vh;
+      position: absolute;
+      top: 45vh ;
+      right: 65vh;
+      z-index: -1;
+      filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+     
+
+     }
+     .discount-content h4{ 
+      position: absolute;
+      top: 50vh ;
+      right: 70vh;
+      color: rgb(255, 255, 255);
+
+     }
+     .discount-content h1{ 
+      position: absolute;
+      top: 53vh ;
+      right: 69vh;
+      color: rgb(255, 255, 255);
+      font-size: 3rem;
+     }
+     img[src="./images/headphones.jpg"] {
+      position: absolute;
+      right:20vh;
+      top: 12vh;
+      z-index: -2;
+      height: 60vh;
+      
+
+     }
+
+
+     .text {
+      color: silver;
+      text-align: left;
+      margin-right: 50vh;
+     }
+ 
+     .action-btn {
+      background-color: rgb(221, 80, 4) ;
+      font-size: 20px;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+     }
+     .action-btn:active{
+      box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  text-decoration: underline;
+     }
+     .right-section>button {
+      position: absolute;
+      bottom: 27px;
+      right: 38vh;
+     }
+
+     .yellow-dot{
+      background-color: yellow;
+      padding: 20px;
+      border-radius: 20px;
+     }
+     .tomato-dot{background-color: rgb(221, 80, 4);
+      padding: 20px;
+      border-radius: 20px;}
+     .black-dot{background-color: black;
+      padding: 20px;
+      border-radius: 20px;}
+      .dots{
+        display: flex;
+        position: absolute;
+        bottom: 90px;
+        right: 33vh;
+      }
+      .active-item{
+        color: rgb(221, 80, 4);
+        font-weight:600;
+      }
