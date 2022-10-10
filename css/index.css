@@ -1,26 +1,24 @@
 *{
     font-family: poppins;
    
-    margin: 20px 20px;
+   
 }
 
 nav {
     display: flex;
+    justify-content:space-between;
+    align-items: center;
 
 }
 img[src="./images/actions.svg"] {
   height: 40px;
-  position: relative;
-  left: 25vh;
   cursor: pointer;
 }
 
-.nav-items {
-    margin-left: 25vh;
-    margin-top: 30px;
+
     
     
-}
+
 .nav-items h5:hover{
   text-decoration: underline;
 }
@@ -31,6 +29,22 @@ img[src="./images/actions.svg"] {
     font-size: 20px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+  .nav-items{
+    display: none;
+  }
+ .logo {
+    margin: 20px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  *{
+    margin:20px 20px;
+  }
+  
+}
+
  .intro-section{
     display: flex;
  }
@@ -143,3 +157,6 @@ img[src="./images/actions.svg"] {
         color: rgb(221, 80, 4);
         font-weight:600;
       }
+
+     
+      
