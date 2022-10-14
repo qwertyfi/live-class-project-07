@@ -61,6 +61,9 @@ img[src="./images/actions.svg"] {
  }
  .left-section{
   width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   
  }
 
@@ -90,12 +93,18 @@ img[src="./images/actions.svg"] {
   }
   .sub-headlines {
     font-size: 25px;
+
   }
   .sub-headline{
     display: flex;
     align-items: center;
     gap: 10px;
+
   }
+  .sub-headline:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
 
   .text {
     color: silver;
@@ -202,11 +211,11 @@ img[src="./images/actions.svg"] {
        @media only screen and (max-width: 1000px) {
         .dots {
           left: 22vh;
-          top: 165vh 
+          top: 188vh 
           
         }
         .right-section>button{
-          top: 171vh;
+          top: 195vh;
           right: 22vh;
         }
 
